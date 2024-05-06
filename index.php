@@ -2,7 +2,8 @@
 $status = isset($_GET['status']) ? $_GET['status'] : 'landing';
 
 $accion = match ($status) {
-    'landing' => require_once 'landingPage.php'
+    'landing' => require_once 'landingPage.php',
+    default => require_once 'landingPage.php',
 };
 
 ?>

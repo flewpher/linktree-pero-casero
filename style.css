@@ -46,32 +46,31 @@ body {
     }
 }
 .whatsapp-link {
-    position: fixed; /* Posicionamiento fijo para mantenerlo en el centro */
-    bottom: 20px; /* Ajusta la distancia desde la parte inferior */
-    left: 50%; /* Centra horizontalmente */
-    transform: translateX(-50%); /* Centra horizontalmente */
-    display: inline-block; /* Para que ocupe solo el ancho del icono */
+    position: fixed; 
+    bottom: 20px; 
+    left: 50%;  
+    transform: translateX(-50%); 
+     display: inline-block; 
     background-color: transparent;
 }
 
 .whatsapp-link i {
-    /* Estilos para mostrar solo el icono y ocultar el texto */
-    font-size: 40px; /* Tamaño del icono */
-    color: white; /* Color del icono de WhatsApp */
+    
+    font-size: 40px;
+    color: white; 
 }
 
 .whatsapp-link span {
-    /* Estilos para ocultar el texto */
     display: none;
 }
 
 
 .profile-picture {
-    width: 150px; /* Ajusta el tamaño de la imagen según sea necesario */
-    height: 150px; /* Ajusta el tamaño de la imagen según sea necesario */
-    border-radius: 50%; /* Hace que la imagen sea circular */
-    overflow: hidden; /* Oculta cualquier parte de la imagen que esté fuera del círculo */
-    margin: 0 auto; /* Centra la imagen horizontalmente */
+    width: 150px;
+    height: 150px; 
+    border-radius: 50%;
+    overflow: hidden; 
+    margin: 0 auto; 
     position: relative;
     text-align: center; 
 }
@@ -79,16 +78,16 @@ body {
 .profile-picture img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ajusta la imagen para que cubra todo el círculo */
-    object-position: center center; /* Centra la imagen dentro del círculo */
+    object-fit: cover; 
+    object-position: center center; 
     position: absolute;
     top: 0;
     left: 0;
 }
 h2 {
-    margin-top: 10px; /* Espacio entre la imagen y el nombre */
-    color: white; /* Color del texto */
-    text-align: center; /* Alinea el texto al centro */
+    margin-top: 10px;
+    color: white;
+    text-align: center;
 }
 
 /*-------------------------animations-----------------------*/
